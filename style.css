@@ -12,3 +12,23 @@ nav {
     background-color: #4343c2;
     color: #fff;
 }
+
+main {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+#topheader {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+}
+
+#bottomheader {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+}
