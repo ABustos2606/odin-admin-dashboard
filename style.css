@@ -1,0 +1,14 @@
+html {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    margin:0;
+}
+
+nav {
+    background-color: #4343c2;
+    color: #fff;
+}
